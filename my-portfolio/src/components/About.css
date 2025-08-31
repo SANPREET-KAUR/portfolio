@@ -1,0 +1,113 @@
+.about-box {
+    background: white;
+    padding: 30px 25px;
+    max-width: 1600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.about-box:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.college-text {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #1abc9c;
+    cursor: pointer;
+    position: relative;
+}
+
+.college-image {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+}
+
+.about-box {
+    background: white;
+    padding: 30px 25px;
+    max-width: 1600px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.about-box:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.college-text {
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #1abc9c;
+    cursor: pointer;
+    position: relative;
+}
+
+
+/* Common styles for image */
+
+.college-image {
+    position: absolute;
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Image below the word */
+
+.college-image.bottom {
+    top: 100%;
+    margin-top: 10px;
+}
+
+
+/* Image above the word */
+
+.college-image.top {
+    bottom: 100%;
+    margin-bottom: 10px;
+}
+.about-box {
+  background-image: url('../assets/image.png');
+  background-size: cover;   /* puri div cover karega */
+  background-position: center; /* image center me rahegi */
+  background-repeat: no-repeat; /* repeat nahi hoga */
+  min-height: 100vh; /* pura screen cover karega (optional) */
+  padding: 20px; /* andar ka content thoda space le */
+  color: white; /* text visible rahe */
+}
+.about-section {
+    background: #ffffff;
+    border-top: 1px solid #e0e0e0; /* Soft divider */
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-snap-type: y mandatory; /* 👈 vertical snap */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-snap-align: start;
+  min-height: 100vh; /* 👈 har section full screen */
+}

@@ -1,0 +1,54 @@
+.skills-section {
+    padding: 3rem 2rem;
+    background: linear-gradient(to right, #f9f9f9, #ffffff);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #111;
+    position: relative;
+}
+
+.skills-section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #007bff;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+.skill-group {
+    margin-bottom: 1.8rem;
+    padding-left: 1rem;
+    border-left: 3px solid #007bff;
+    transition: all 0.3s ease;
+}
+
+.skill-group h3 {
+    font-size: 1.4rem;
+    color: #007bff;
+    margin-bottom: 0.3rem;
+}
+
+.skill-group p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+}
+
+.skill-group:hover {
+    padding-left: 1.5rem;
+    border-left: 4px solid #0056b3;
+}
+
+.skills-section h2:hover::after {
+    width: 7%;
+    /* grows to full text width */
+}

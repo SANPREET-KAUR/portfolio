@@ -1,0 +1,36 @@
+.contact-section {
+    padding: 3rem 2rem;
+    background-color: #f0f4ff;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+}
+
+.contact-section h2 {
+    font-size: 2.2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.contact-info {
+    margin-top: 1.5rem;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
